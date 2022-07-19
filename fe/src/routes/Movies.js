@@ -1,11 +1,16 @@
 import { gql, useApolloClient, useQuery } from "@apollo/client";
 import React, { useEffect } from "react";
 
-const g
+const GET_CONTINENTS = gql`
+  query {
+    continents {
+      code
+      name
+    }
+  }
+`;
+
 const Movies = () => {
-  useQuery()
-
-
   return <div>hi</div>;
 };
 

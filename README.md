@@ -10,6 +10,17 @@ npm i apollo-server graphql
 npm i nodemon -D
 ```
 
+Front-end
+```
+yarn create react-app fe
+
+yarn add graphql
+
+yarn add @apollo/client
+
+yarn add react-router-dom@6
+```
+
 package.json
 ```json
   "scripts": {
